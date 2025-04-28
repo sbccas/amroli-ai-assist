@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
-st.title("💬 AmroliAI: Your Smart Campus Companion ✨")
+st.title("💬 AmroliAI ✨")
 st.write("Welcome to AmroliAI, the official AI-powered chatbot of Amroli SFI College!"
 "Instantly get answers about admissions, courses, events, faculty, campus facilities, and more — all in a friendly, interactive way."
 "Whether you're a student, parent, or visitor, AmroliAI is here 24/7 to guide you with accurate and up-to-date information about our institution."
