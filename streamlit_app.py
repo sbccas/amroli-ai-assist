@@ -1,9 +1,26 @@
 import streamlit as st
 import pandas as pd
 from openai import OpenAI
+import base64
+import os
+st.set_page_config(
+    page_title="Amroli AI",
+    page_icon="💬",
+    layout="centered"
+)
+# Load logo (optional but makes it polished)
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+logo_path = "logo.png"  # Update path if needed
+if logo_path and os.path.exists(logo_path):
+    logo_base64 = get_base64_image(logo_path)
+    st.markdown(f"<img src='data:image/png;base64,{logo_base64}' width='80' style='margin-bottom: 10px;'>", unsafe_allow_html=True)
+
 
 # Show title and description.
-st.title("💬 AmroliAI ✨")
+st.title("AmroliAI 💬")
 st.write("Welcome to AmroliAI, Your Smart Campus Companion. The official AI-powered chatbot of Amroli SFI College!")
 st.write("Instantly get answers about admissions, courses, events, faculty, campus facilities, and more — all in a friendly, interactive way."
          " Whether you're a student, parent, or visitor, AmroliAI is here 24/7 to guide you with accurate and up-to-date information about our institution."
