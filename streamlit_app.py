@@ -15,7 +15,7 @@ client = OpenAI(api_key=st.secrets["Openkey"])
 # --- NEW: Load CSV data into a DataFrame
 @st.cache_data
 def load_data():
-    df = pd.read_csv("amroli_data.csv")  # Make sure the CSV file is present
+    df = pd.read_csv("allinone.csv")  # Make sure the CSV file is present
     return df
 
 df = load_data()
