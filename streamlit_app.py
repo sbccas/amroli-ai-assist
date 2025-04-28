@@ -20,7 +20,7 @@ if logo_path and os.path.exists(logo_path):
 
 
 # Show title and description.
-st.title("AmroliAI 💬")
+st.title("Amroli AI Assistant 💬")
 st.write("Welcome to AmroliAI, Your Smart Campus Companion. The official AI-powered chatbot of Amroli SFI College!")
 st.write("Instantly get answers about admissions, courses, events, faculty, campus facilities, and more — all in a friendly, interactive way."
          " Whether you're a student, parent, or visitor, AmroliAI is here 24/7 to guide you with accurate and up-to-date information about our institution."
