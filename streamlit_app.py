@@ -3,7 +3,10 @@ from openai import OpenAI
 
 # Show title and description.
 st.title("💬 AmroliAI: Your Smart Campus Companion ✨")
-
+st.write("Welcome to AmroliAI, the official AI-powered chatbot of Amroli SFI College!"
+"Instantly get answers about admissions, courses, events, faculty, campus facilities, and more — all in a friendly, interactive way."
+"Whether you're a student, parent, or visitor, AmroliAI is here 24/7 to guide you with accurate and up-to-date information about our institution."
+)
 
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
