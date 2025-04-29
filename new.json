@@ -1,0 +1,69 @@
+[
+    {
+      "category": "Courses",
+      "subcategory": "UG",
+      "question": "What undergraduate courses are offered?",
+      "answer": "BCA, BSc (IT), BBA, BCom, BA (English)"
+    },
+    {
+      "category": "Courses",
+      "subcategory": "PG",
+      "question": "What postgraduate courses are offered?",
+      "answer": "MSc (IT), MCom (E-Commerce)"
+    },
+    {
+      "category": "Fees",
+      "subcategory": "General",
+      "question": "What are the course fees?",
+      "answer": "Course fees are as per VNSGU University norms."
+    },
+    {
+      "category": "Faculty",
+      "subcategory": "Highlights",
+      "question": "Who are some key faculty members?",
+      "answer": "Faculty details as per attached Excel data (BCA, BSc(IT), Commerce, English departments)."
+    },
+    {
+      "category": "Scholarships",
+      "subcategory": "Availability",
+      "question": "What scholarships are available?",
+      "answer": "All government-approved scholarships and AICTE scholarships are offered to eligible students."
+    },
+    {
+      "category": "Student Life",
+      "subcategory": "General",
+      "question": "What is student life like at the campus?",
+      "answer": "Active clubs, events, seminars, sports activities, NSS, cultural fests, hackathons, etc."
+    },
+    {
+      "category": "Rules",
+      "subcategory": "Discipline",
+      "question": "What is the discipline policy?",
+      "answer": "Students must maintain decorum; ragging, misconduct, and unethical behavior are strictly prohibited."
+    },
+    {
+      "category": "Admission",
+      "subcategory": "UG",
+      "question": "How can I apply for undergraduate programs?",
+      "answer": "Through online VNSGU centralized admission process and college guidance."
+    },
+    {
+      "category": "Admission",
+      "subcategory": "PG",
+      "question": "How can I apply for postgraduate programs?",
+      "answer": "Admission based on merit list and university guidelines."
+    },
+    {
+      "category": "Contact",
+      "subcategory": "General",
+      "question": "How can I contact the college?",
+      "answer": "Visit https://amrolicollege.ac.in or call +91-261-2491910."
+    },
+    {
+      "category": "Facilities",
+      "subcategory": "Infrastructure",
+      "question": "What facilities are available?",
+      "answer": "Computer labs, libraries, seminar halls, sports ground, cafeteria, Wi-Fi campus, hostel (for girls)."
+    }
+  ]
+  
