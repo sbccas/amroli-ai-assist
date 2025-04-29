@@ -61,7 +61,7 @@ if prompt := st.chat_input("What's your query?"):
         if not matching_rows.empty:
             return matching_rows.to_string(index=False)
         else:
-            return "No direct information found in our records."
+            return "No direct information found in our records.Kindly use admission,course, event, campus, facilities etc to inquire."
 
     relevant_info = find_relevant_info(prompt)
 
