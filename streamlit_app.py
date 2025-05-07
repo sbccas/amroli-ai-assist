@@ -61,7 +61,7 @@ if prompt := st.chat_input("What's your query? e.g. Courses, Sports, Facilities"
         if not matching_rows.empty:
             return matching_rows.to_string(index=False)
         else:
-            return "I am unable to understand your query.Kindly use admission,course, event, campus, facilities etc to inquire."
+            return "I am unable to understand your query.Kindly use admission,course, event, campus, facilities etc to inquire. Additionally you can visit our website at www.amrolicollege.ac.in"
 
     relevant_info = find_relevant_info(prompt)
     st.write("MATCHED DATA:")
