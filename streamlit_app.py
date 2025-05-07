@@ -64,8 +64,8 @@ if prompt := st.chat_input("What's your query? e.g. Courses, Sports, Facilities"
             return "I am unable to understand your query.Kindly use admission,course, event, campus, facilities etc to inquire. Additionally you can visit our website at www.amrolicollege.ac.in"
 
     relevant_info = find_relevant_info(prompt)
-    st.write("MATCHED DATA:")
-    st.write(relevant_info)
+    #st.write("MATCHED DATA:")
+    #st.write(relevant_info)
     # Generate a response using OpenAI API with context from CSV
     full_prompt = f"""
 You are AmroliAI, an Intellectual and Obedient assistant for Amroli SFI Colleges.
