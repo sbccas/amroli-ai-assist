@@ -61,14 +61,14 @@ if prompt := st.chat_input("What's your query? e.g. Courses, Sports, Facilities"
         if not matching_rows.empty:
             return matching_rows.to_string(index=False)
         else:
-            return "No direct information found in our records.Kindly use admission,course, event, campus, facilities etc to inquire."
+            return "I am unable to understand your query.Kindly use admission,course, event, campus, facilities etc to inquire."
 
     relevant_info = find_relevant_info(prompt)
     st.write("MATCHED DATA:")
     st.write(relevant_info)
     # Generate a response using OpenAI API with context from CSV
     full_prompt = f"""
-You are AmroliAI, an assistant for Amroli SFI Colleges.
+You are AmroliAI, an Intellectual and Obedient assistant for Amroli SFI Colleges.
 Use the following information extracted from college records to answer the user's question as accurately as possible.
 
 Information from database:
