@@ -47,7 +47,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Chat input
-if prompt := st.chat_input("What's your query?"):
+if prompt := st.chat_input("What's your query? e.g. Courses, Sports, Facilities"):
 
     # Store and display the current prompt.
     st.session_state.messages.append({"role": "user", "content": prompt})
@@ -64,10 +64,11 @@ if prompt := st.chat_input("What's your query?"):
             return "No direct information found in our records.Kindly use admission,course, event, campus, facilities etc to inquire."
 
     relevant_info = find_relevant_info(prompt)
-
+    st.write("MATCHED DATA:")
+    st.write(relevant_info)
     # Generate a response using OpenAI API with context from CSV
     full_prompt = f"""
-You are AmroliAI, an assistant for Amroli SFI College.
+You are AmroliAI, an assistant for Amroli SFI Colleges.
 Use the following information extracted from college records to answer the user's question as accurately as possible.
 
 Information from database:
